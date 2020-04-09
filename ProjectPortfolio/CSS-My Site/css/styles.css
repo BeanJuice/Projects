@@ -1,0 +1,146 @@
+/*** tag selectors (raw tag, lowest proc, broad sweeping changes) ***/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 5.625rem;
+  color: #00baf3;
+}
+
+h2 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #00baf3;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #00a8cc;
+}
+
+a {
+  color: #0fa9cc;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #22fcfc;
+}
+hr {
+  border: dotted #f2fcfc 6px;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+/*** class selectors ( . ,overrides tag selectors, non-singular)***/
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #f2fcfc;
+  position: relative;
+  padding: 100px;
+}
+
+.middle-container {
+  margin: 100px 0px;
+}
+
+.btn {
+  background: #00a8cc;
+  border-radius: 8;
+  font-family: 'Quattrocento sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0245a3;
+  text-decoration: none;
+  color: #22fcfc;
+}
+
+.bottom-container {
+  padding: 50px 0px 20px;
+  background-color: #0245a3;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.copyright {
+  color: #f2fcfc;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.python {
+  margin-right: 30px;
+  float: left;
+  height: 20%;
+  width: 20%;
+}
+
+.HTML {
+  margin-left: 20px;
+  float: right;
+  height: 10%;
+  width: 10%;
+}
+
+.CSS {
+  float: right;
+  margin-left: 30px;
+  height: 10%;
+  width: 10%;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.online-me{
+  color: #f2fcfc;
+}
+.png-img{
+  border-radius: 100%;
+}
+/*** ID selectors (#, highest proc & singularly unique) ***/
